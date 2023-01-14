@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <title>Debugger</title>
+</head>
+<body>
+<script>
+
+function createFullName(firstName, middleName, lastName) {
+    debugger;
+    const fullName = `${firstName} ${middleName} ${lastName}`;
+    return fullName;
+}
+
+const name = createFullName("Jawa","Sunda","Batak");
+console.info(name);
+
+</script>
+</body>
+</html>

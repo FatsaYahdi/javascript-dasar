@@ -1,0 +1,1 @@
+document.writeln("Hello World form js");
